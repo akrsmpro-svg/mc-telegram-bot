@@ -377,7 +377,7 @@ async function getServer(
 }
 
 export function startTelegramBot(): TelegramBot {
-  const token = 8867349694:AAGZMUg4myX4dTy-kgsCFyrASx9MgnSW9dU;
+  const token = "8867349694:AAGZMUg4myX4dTy-kgsCFyrASx9MgnSW9dU";
   if (!token) {
     throw new Error(
       "TELEGRAM_BOT_TOKEN environment variable is required but was not provided.",
