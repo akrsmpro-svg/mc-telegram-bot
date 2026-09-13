@@ -377,7 +377,7 @@ async function getServer(
 }
 
 export function startTelegramBot(): TelegramBot {
-  const token = process.env.TELEGRAM_BOT_TOKEN;
+  const token = 8867349694:AAGZMUg4myX4dTy-kgsCFyrASx9MgnSW9dU;
   if (!token) {
     throw new Error(
       "TELEGRAM_BOT_TOKEN environment variable is required but was not provided.",
@@ -401,7 +401,7 @@ export function startTelegramBot(): TelegramBot {
     const keyboard = {
       inline_keyboard: [
         [{ text: "🪐 𝟗𝐧𝐚𝐭 || بوت 🪐", url: "https://t.me/bot_player_24h" }],
-        [{ text: "✅ تحقق من الاشتراك", callback_data: "check_subscription" }],
+        [{ text: "✅ تحقق من الاشتࢪاڪ", callback_data: "check_subscription" }],
       ],
     };
 
